@@ -1,0 +1,21 @@
+{
+  "name": "mean-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watchify": "watchify app.js -o bundle.js -v",
+    "dev": "npm run watchify & serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-static": "^0.7.7",
+    "watchify": "^3.7.0"
+  },
+  "dependencies": {
+    "angular": "^1.5.3",
+    "angularfire": "^1.2.0",
+    "firebase": "^2.4.2"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "firebase": "meanchat",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
